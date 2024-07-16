@@ -1,9 +1,9 @@
-// Se vitórias for menor do que 10 = Ferro
 let saldoDeRankeadas = calculoDeVitorias(102, 1)
 
 function calculoDeVitorias(quantidadeDeVitorias, quantidadeDeDerrotas) {
     let saldoDeVitorias = quantidadeDeVitorias - quantidadeDeDerrotas
     
+    // Se vitórias for menor do que 10 = Ferro
     if (saldoDeVitorias < 10) {
     	let nivel = "Ferro"
    		console.log("O Herói tem saldo de " + saldoDeVitorias + " " + "está no nível de " + nivel)
